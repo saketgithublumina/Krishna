@@ -1,0 +1,6 @@
+    $('.transparentPatch').focusout(function(event) {
+         $(this).css({outline:"none"});
+		 $('.headerMenu').hide();
+			$('.transparentPatch').hide();
+			$('.help').focus();		
+    });
